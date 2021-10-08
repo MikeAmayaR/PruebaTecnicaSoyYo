@@ -1,0 +1,21 @@
+{
+  "name": "pruebasoyyo",
+  "version": "1.0.0",
+  "description": "Prueba SoyYo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "build-docker": "sh ./Dockerfile",
+    "start": "node index.js"
+  },
+  "author": "Michael Amaya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^9.1.2"
+  }
+}
